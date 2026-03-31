@@ -1,0 +1,206 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccd8e4;
+}
+
+/* Navigation */
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  z-index: 10;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  max-height: 700px;
+  width: 100%;
+  background-image: url("../images/Marrakech.jpg");
+  background-size: cover;
+  background-position: center 58%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 6rem 2rem;
+}
+
+/* Text on hero */
+.hero-content {
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  max-width: 600px;
+  color: rgb(1, 110, 1);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Page content */
+.page-content {
+  padding: 4rem 2rem;
+  color: rgb(1, 110, 1);
+}
+body.explore h2 {
+  text-align: center;
+}
+
+.desert-section {
+  max-width: 1000px;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+.desert-section h2 {
+  margin-bottom: 1rem;
+}
+.desert-section p {
+  margin-bottom: 2rem;
+}
+.desert-images {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.desert-images img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+@media (max-width: 800px) {
+  .desert-images {
+    flex-direction: column;
+  }
+}
+
+.souk-section {
+  max-width: 1000px;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+
+.souk-section h2 {
+  margin-bottom: 1rem;
+}
+
+.souk-section p {
+  margin-bottom: 2rem;
+}
+
+.souk-images {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.souk-images img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+  .souk-images {
+    flex-direction: column;
+  }
+}
+
+.cuisine-section {
+  max-width: 1000px;
+  margin: 0 auto 4rem;
+  text-align: center;
+}
+
+.cuisine-section h2 {
+  margin-bottom: 1rem;
+  color: green; /* samma som nav */
+}
+
+.cuisine-section p {
+  margin-top: 1.5rem;
+  color: green;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.cuisine-images {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.cuisine-images img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+  .cuisine-images {
+    flex-direction: column;
+  }
+}
+
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-basics h2 {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.info-box {
+  max-width: 600px;
+  margin: 0 auto 4rem;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1.5rem 2rem;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.info-box ul {
+  padding-left: 1.2rem;
+}
+
+.info-box li {
+  margin-bottom: 0.8rem;
+  color: #2f6b3f;
+}
+
+.contact-section {
+  margin-top: auto;
+  padding: 2rem 0;
+  text-align: center;
+}
