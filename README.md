@@ -79,6 +79,12 @@ The website is deployed using GitHub Pages and can be viewed online via the repo
 
 ---
 
+## Live Site
+
+https://monia07.github.io/Marrakech-travel-guide/
+
+---
+
 ## AI usage
 
 AI-based tools were used as a learning support for:
