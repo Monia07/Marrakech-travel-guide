@@ -25,6 +25,14 @@ The website aims to inspire and inform users who are interested in travelling to
 
 ---
 
+## Screenshots
+
+![Homepage](assets/screenshots/home-page.png)
+![Explore](assets/screenshots/explore-page.png)
+![Contact](assets/screenshots/contact-page.png)
+
+---
+
 ## Design & layout
 
 I had a clear idea of how I wanted the website to be structured from the beginning.  
