@@ -27,9 +27,9 @@ The website aims to inspire and inform users who are interested in travelling to
 
 ## Screenshots
 
-![Homepage](assets/screenshots/home-page.png)
-![Explore](assets/screenshots/explore-page.png)
-![Contact](assets/screenshots/contact-page.png)
+![Homepage](assets/images/home-page.png)
+![Explore](assets/images/explore-page.png)
+![Contact](assets/images/contact-page.png)
 
 ---
 
