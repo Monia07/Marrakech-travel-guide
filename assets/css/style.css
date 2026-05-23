@@ -204,3 +204,28 @@ body.explore h2 {
   padding: 2rem 0;
   text-align: center;
 }
+
+.travel-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  margin: 3rem auto;
+  border-radius: 18px;
+  max-width: 1200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.travel-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.travel-card p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+  margin-top: 1rem;
+}
+
+.travel-card img {
+  border-radius: 14px;
+}
