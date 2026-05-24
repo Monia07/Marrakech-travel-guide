@@ -7,7 +7,7 @@
 
 /* Base */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #ccd8e4;
 }
 
@@ -227,6 +227,14 @@ body.explore h2 {
   margin-top: 1rem;
 }
 
+.desert-text,
+.souk-section p,
+.cuisine-section p {
+  max-width: 850px;
+  margin: 1.5rem auto 0;
+  text-align: center;
+}
+
 .travel-card img {
   border-radius: 14px;
   transition:
@@ -237,4 +245,15 @@ body.explore h2 {
 .travel-card img:hover {
   transform: scale(1.03);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.desert-text,
+.souk-section p,
+.cuisine-section p {
+  max-width: 850px;
+  margin: 1.5rem auto 0;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
 }
