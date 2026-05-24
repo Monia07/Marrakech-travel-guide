@@ -204,15 +204,16 @@ body.explore h2 {
   padding: 2rem 0;
   text-align: center;
 }
-
 .travel-card {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(230, 236, 240, 0.55);
+  backdrop-filter: blur(4px);
   padding: 2rem;
   margin: 3rem auto;
   border-radius: 18px;
   max-width: 1200px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0-3s ease;
 }
 
 .travel-card h2 {
@@ -228,4 +229,12 @@ body.explore h2 {
 
 .travel-card img {
   border-radius: 14px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.travel-card img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
 }
