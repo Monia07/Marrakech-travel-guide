@@ -37,7 +37,7 @@ body {
   min-height: 100vh;
   max-height: 700px;
   width: 100%;
-  background-image: url("../images/Marrakech.jpg");
+  background-image: url("../images/marrakech.jpg");
   background-size: cover;
   background-position: center 58%;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ body.explore h2 {
 body.contact {
   background-image:
     linear-gradient(rgba(204, 216, 228, 0.55), rgba(204, 216, 228, 0.55)),
-    url("../images/Marrakech.jpg");
+    url("../images/marrakech.jpg");
 
   background-size: cover;
   background-position: center center;
