@@ -32,7 +32,7 @@ body {
   font-weight: bold;
 }
 
-/* HERO */
+/* Hero */
 .hero {
   min-height: 100vh;
   max-height: 700px;
@@ -41,14 +41,12 @@ body {
   background-size: cover;
   background-position: center 58%;
   background-repeat: no-repeat;
-
   display: flex;
   align-items: center;
   position: relative;
   padding: 6rem 2rem;
 }
 
-/* Text on hero */
 .hero-content {
   position: absolute;
   top: 20%;
@@ -62,91 +60,36 @@ body {
 
 /* Page content */
 .page-content {
-  padding: 4rem 2rem;
+  padding: 6rem 2rem 4rem;
   color: rgb(1, 110, 1);
 }
 
+/* Explore page */
 body.explore h2 {
   text-align: center;
 }
 
-.desert-section {
-  max-width: 1000px;
-  margin: 0 auto 4rem;
-  text-align: center;
-}
-
-.desert-section h2 {
-  margin-bottom: 1rem;
-}
-
-.desert-section p {
-  margin-bottom: 2rem;
-}
-
-.desert-images {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.desert-images img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-@media (max-width: 800px) {
-  .desert-images {
-    flex-direction: column;
-  }
-}
-
-.souk-section {
-  max-width: 1000px;
-  margin: 0 auto 4rem;
-  text-align: center;
-}
-
-.souk-section h2 {
-  margin-bottom: 1rem;
-}
-
-.souk-section p {
-  margin-bottom: 2rem;
-}
-
-.souk-images {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.souk-images img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-@media (max-width: 800px) {
-  .souk-images {
-    flex-direction: column;
-  }
-}
-
+.desert-section,
+.souk-section,
 .cuisine-section {
   max-width: 1000px;
   margin: 0 auto 4rem;
   text-align: center;
 }
 
+.desert-section h2,
+.souk-section h2,
 .cuisine-section h2 {
   margin-bottom: 1rem;
+}
+
+.cuisine-section h2 {
   color: green;
+}
+
+.desert-section p,
+.souk-section p {
+  margin-bottom: 2rem;
 }
 
 .cuisine-section p {
@@ -156,61 +99,21 @@ body.explore h2 {
   font-size: 1rem;
 }
 
+.desert-images,
+.souk-images,
 .cuisine-images {
   display: flex;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
 }
 
+.desert-images img,
+.souk-images img,
 .cuisine-images img {
   width: 100%;
   height: 280px;
   object-fit: cover;
   border-radius: 12px;
-}
-
-@media (max-width: 800px) {
-  .cuisine-images {
-    flex-direction: column;
-  }
-}
-
-.contact-page {
-  min-height: 100vh;
-  transform: scale(0.92);
-  transform-origin: top center;
-}
-
-.travel-basics h2 {
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  font-size: 1.35rem;
-}
-
-.info-box {
-  max-width: 360px;
-  margin: 0 auto 2rem;
-  background: rgba(255, 255, 255, 0.78);
-  padding: 1.2rem 1.5rem;
-  border-radius: 16px;
-  text-align: left;
-}
-
-.info-box ul {
-  padding-left: 1.2rem;
-}
-
-.info-box li {
-  margin-bottom: 0.6rem;
-  color: #2f6b3f;
-  font-size: 0.92rem;
-}
-
-.contact-section {
-  margin-top: auto;
-  padding: 2rem 0;
-  text-align: center;
 }
 
 .travel-card {
@@ -236,14 +139,6 @@ body.explore h2 {
   margin-top: 1rem;
 }
 
-.desert-text,
-.souk-section p,
-.cuisine-section p {
-  max-width: 850px;
-  margin: 1.5rem auto 0;
-  text-align: center;
-}
-
 .travel-card img {
   border-radius: 14px;
   transition:
@@ -265,6 +160,94 @@ body.explore h2 {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.45);
   border-radius: 12px;
+}
+
+/* Contact page */
+body.contact {
+  background-image:
+    linear-gradient(rgba(204, 216, 228, 0.55), rgba(204, 216, 228, 0.55)),
+    url("../images/marrakech.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contact-page {
+  min-height: 100vh;
+  transform: scale(0.92);
+  transform-origin: top center;
+}
+
+.contact-page h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+  color: #355e3b;
+}
+
+.contact-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-intro {
+  text-align: left;
+}
+
+.contact-intro h2 {
+  font-size: 1.7rem;
+  color: #2f6b3f;
+  margin-bottom: 1rem;
+}
+
+.contact-intro p {
+  line-height: 1.6;
+  font-size: 0.98rem;
+  max-width: 420px;
+  color: #2f6b3f;
+}
+
+.travel-basics h2 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  color: #2f6b3f;
+}
+
+.info-box {
+  max-width: 360px;
+  margin: 0 auto 2rem;
+  background: rgba(255, 255, 255, 0.78);
+  padding: 1.2rem 1.5rem;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.info-box ul {
+  padding-left: 1.2rem;
+}
+
+.info-box li {
+  margin-bottom: 0.6rem;
+  color: #2f6b3f;
+  font-size: 0.92rem;
+}
+
+.contact-card {
+  background-color: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form {
@@ -325,6 +308,11 @@ body.explore h2 {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
+/* Footer */
 .site-footer {
   margin-top: 4rem;
   padding: 1.5rem;
@@ -348,110 +336,114 @@ body.explore h2 {
   font-size: 0.95rem;
 }
 
-.contact-section {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 1rem 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 3rem;
-  align-items: center;
-}
-
-.contact-intro {
-  text-align: left;
-}
-
-.contact-intro h2 {
-  font-size: 1.7rem;
-  color: #355e3b;
-  margin-bottom: 1rem;
-}
-
-.contact-intro p {
-  line-height: 1.6;
-  font-size: 0.98rem;
-  max-width: 420px;
-}
-
-.contact-card {
-  background-color: rgba(255, 255, 255, 0.78);
-  backdrop-filter: blur(4px);
-  padding: 1rem;
-  border-radius: 18px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.contact-page h1 {
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  font-size: 2.6rem;
-  color: #355e3b;
-}
-
-.hidden {
-  display: none;
-}
-
-.contact-intro h2,
-.contact-intro p,
-.travel-basics h2,
-.info-box li {
-  color: #2f6b3f;
-}
-
-body.contact {
-  background-image:
-    linear-gradient(rgba(204, 216, 228, 0.55), rgba(204, 216, 228, 0.55)),
-    url("../images/marrakech.jpg");
-
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
+/* Mobile */
 @media (max-width: 800px) {
+  .site-header {
+    position: relative;
+    padding: 1.5rem 1rem;
+  }
+
+  .nav-list {
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .page-content {
+    padding: 2rem 1rem;
+  }
+
+  .hero {
+    min-height: 100vh;
+    padding: 3rem 1rem;
+  }
+
+  .hero-content {
+    position: static;
+    max-width: 100%;
+    margin: 3rem auto 0;
+  }
+
+  .desert-images,
+  .souk-images,
+  .cuisine-images {
+    flex-direction: column;
+  }
+
+  .desert-images img,
+  .souk-images img,
+  .cuisine-images img {
+    height: 240px;
+  }
+
+  .travel-card {
+    padding: 1.5rem;
+    margin: 2rem auto;
+  }
+
+  .travel-card h2 {
+    font-size: 1.6rem;
+  }
+
   .contact-page {
     transform: none;
-    padding: 6rem 1.2rem 2rem;
+    padding: 2rem 1rem;
   }
 
   .contact-page h1 {
-    font-size: 2.4rem;
-    margin-top: 2rem;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   .contact-section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
     padding: 0;
-    margin: 1rem auto;
   }
 
   .contact-intro {
+    width: 100%;
     text-align: center;
+  }
+
+  .contact-intro h2 {
+    font-size: 1.6rem;
   }
 
   .contact-intro p {
     max-width: 100%;
+    font-size: 0.95rem;
   }
 
   .travel-basics h2 {
     margin-top: 2rem;
+    font-size: 1.35rem;
   }
 
   .info-box {
     max-width: 100%;
+    margin-bottom: 1.5rem;
   }
 
   .contact-card {
     width: 100%;
+    padding: 1rem;
   }
 
   .contact-form {
     max-width: 100%;
+  }
+
+  body.contact {
+    background-attachment: scroll;
+  }
+
+  .site-footer {
+    margin-top: 2rem;
   }
 }
