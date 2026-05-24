@@ -411,3 +411,47 @@ body.contact {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+@media (max-width: 800px) {
+  .contact-page {
+    transform: none;
+    padding: 6rem 1.2rem 2rem;
+  }
+
+  .contact-page h1 {
+    font-size: 2.4rem;
+    margin-top: 2rem;
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+    margin: 1rem auto;
+  }
+
+  .contact-intro {
+    text-align: center;
+  }
+
+  .contact-intro p {
+    max-width: 100%;
+  }
+
+  .travel-basics h2 {
+    margin-top: 2rem;
+  }
+
+  .info-box {
+    max-width: 100%;
+  }
+
+  .contact-card {
+    width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
