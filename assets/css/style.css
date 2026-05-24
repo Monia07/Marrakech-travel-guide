@@ -179,10 +179,11 @@ body.explore h2 {
   text-align: center;
   margin-top: 6rem;
   margin-bottom: 2rem;
+  font-size: 1.6rem;
 }
 
 .info-box {
-  max-width: 600px;
+  max-width: 420px;
   margin: 0 auto 4rem;
   background: rgba(255, 255, 255, 0.6);
   padding: 1.5rem 2rem;
@@ -213,7 +214,7 @@ body.explore h2 {
   max-width: 1200px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.08);
-  transition: all 0-3s ease;
+  transition: all 0.3s ease;
 }
 
 .travel-card h2 {
@@ -259,7 +260,7 @@ body.explore h2 {
 }
 
 .contact-form {
-  max-width: 600px;
+  max-width: 500px;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;
@@ -287,7 +288,7 @@ body.explore h2 {
 }
 
 .contact-form textarea {
-  min-height: 160px;
+  min-height: 120px;
   resize: vertical;
 }
 
@@ -321,3 +322,57 @@ body.explore h2 {
   font-size: 0.95rem;
   color: #355e3b;
 }
+
+.footer-contact {
+  margin-top: 1rem;
+}
+
+.footer-contact p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.contact-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-intro {
+  text-align: left;
+}
+
+.contact-intro h2 {
+  font-size: 1.7rem;
+  color: #355e3b;
+  margin-bottom: 1rem;
+}
+
+.contact-intro p {
+  line-height: 1.6;
+  font-size: 0.98rem;
+  max-width: 420px;
+}
+
+.contact-card {
+  background-color: rgba(230, 236, 240, 0.55);
+  backdrop-filter: blur(4px);
+  padding: 1.5rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page h1 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #355e3b;
+}
+
+.hidden {
+  display: none;
