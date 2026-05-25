@@ -122,6 +122,12 @@ The Contact page includes a simple contact form with name, email and message fie
 
 ![Contact form screenshot](documentation/features/contact-page.png)
 
+### Custom 404 Page
+
+A custom 404 page was created to improve user experience when users navigate to invalid or missing URLs.
+
+![404 page screenshot](documentation/features/404-page.png)
+
 ## Future Features
 
 Future improvements could include:
