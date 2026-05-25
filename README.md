@@ -1,100 +1,338 @@
 # Marrakech Travel Guide
 
-This project is a responsive travel website about Marrakech, created as part of a front-end development assignment.  
-The goal of the project was to practice HTML, CSS, layout structure, responsiveness, and deployment using GitHub Pages.
+[View the live website](https://monia07.github.io/Marrakech-travel-guide/)
 
----
+Marrakech Travel Guide is a responsive front-end website created with HTML, CSS and a small amount of JavaScript. The website introduces users to Marrakech as a travel destination and provides inspiration, travel information and a simple contact form.
 
-## Purpose of the website
+The project was created for users who are interested in visiting Marrakech and want a simple, visual guide to the city’s culture, desert experiences, souks and food.
 
-The website aims to inspire and inform users who are interested in travelling to Marrakech by showcasing:
+## Project Rationale
 
-- The desert landscape
-- Traditional souks and markets
+I chose Marrakech as the topic because I have a strong interest in travel, culture and Morocco as a destination. Morocco has also gained increased global attention after the national football team reached fourth place in the FIFA World Cup 2022. The country will also be one of the host nations for the FIFA World Cup 2030, which makes it even more relevant as a travel destination.
+
+The aim of the website is to provide a clear, visually appealing and easy-to-use travel guide. The design is image-focused, with colours inspired by the main Marrakech image on the homepage. The green text and soft blue-grey background were chosen to create a calm and consistent visual identity across the site.
+
+## UX
+
+### Strategy
+
+**Purpose**
+
+- Inspire users to explore Marrakech.
+- Present key travel experiences such as the desert, souks and Moroccan cuisine.
+- Provide practical travel tips and a way for users to get in contact.
+
+**Primary User Needs**
+
+- Understand the purpose of the website immediately.
+- Navigate easily between pages.
+- View travel inspiration and useful information.
+- Use the contact form to send a message.
+
+**Site Goals**
+
+- Create a clear and responsive travel guide.
+- Use accessible colour contrast and readable typography.
+- Present content in a structured and visually consistent way.
+
+### Scope
+
+The website includes:
+
+- A homepage with a hero image and welcome message.
+- An Explore page with travel experience cards.
+- A Contact page with travel basics, a contact form and footer contact details.
+- Responsive styling for mobile, tablet and desktop.
+
+### Structure
+
+The site has three main pages:
+
+| Page    | Purpose                                                        |
+| ------- | -------------------------------------------------------------- |
+| Home    | Introduces Marrakech and sets the visual style of the website. |
+| Explore | Presents desert activities, souks and Moroccan cuisine.        |
+| Contact | Provides travel tips, contact information and a contact form.  |
+
+The navigation menu appears on all pages and allows users to move between the main areas of the site.
+
+### Skeleton
+
+The layout was planned around a simple three-page structure. The homepage uses a large hero image. The Explore page uses structured travel cards. The Contact page uses a two-column layout with travel information and a form.
+
+### Surface
+
+The website uses a calm travel-inspired colour palette:
+
+- `#ccd8e4` as the main soft blue-grey background colour.
+- `#355e3b` and `#2f6b3f` as the main green text and button colours.
+- Semi-transparent white and blue-grey cards to create a light, modern layout.
+
+## Typography
+
+The website uses [Poppins](https://fonts.google.com/specimen/Poppins) from Google Fonts. Poppins was chosen because it is modern, clean and easy to read, giving the website a more professional travel-guide feel.
+
+## User Stories
+
+| Target                  | Expectation                                                | Outcome                                                |
+| ----------------------- | ---------------------------------------------------------- | ------------------------------------------------------ |
+| As a first-time visitor | I want to understand what the website is about immediately | so that I know I am viewing a Marrakech travel guide.  |
+| As a traveller          | I want to explore popular experiences in Marrakech         | so that I can get ideas for my trip.                   |
+| As a traveller          | I want to view images of activities and food               | so that I can better understand what Marrakech offers. |
+| As a user               | I want clear navigation                                    | so that I can move between pages easily.               |
+| As a user               | I want the site to work on mobile and desktop              | so that I can use it on any device.                    |
+| As a user               | I want practical travel tips                               | so that I feel more prepared before visiting.          |
+| As a user               | I want to send a message through a form                    | so that I can request more travel information.         |
+
+## Features
+
+Feature screenshots can be found in:
+
+```text
+documentation/features/
+```
+
+### Navigation
+
+The navigation menu appears across the website and links to Home, Explore and Contact. It is clear and simple, allowing users to move between pages intuitively.
+
+![Navigation screenshot](documentation/features/home-page.png)
+
+### Homepage Hero
+
+The homepage uses a large Marrakech image with a welcome message. This immediately communicates the purpose and visual identity of the website.
+
+![Hero screenshot](documentation/features/home-page.png)
+
+### Explore Travel Cards
+
+The Explore page contains three travel-card sections:
+
+- Desert experience
+- Souks and markets
 - Moroccan cuisine
-- Practical travel tips
-- Contact information
 
----
+Each section includes images, descriptive text and hover effects to make the page feel more interactive and professional.
 
-## Pages
+![Explore cards screenshot](documentation/features/explore-page.png)
 
-- **Home** – Introduction to Marrakech with a welcoming hero section and visual inspiration.
-- **Explore** – Highlights of the desert, souks, and Moroccan cuisine using image sections.
-- **Contact** – Travel basics, practical tips, and contact details presented in a clear layout.
+### Contact Form
 
----
+The Contact page includes a simple contact form with name, email and message fields. When the user submits the form, a success message is displayed using JavaScript.
 
-## Screenshots
+![Contact form screenshot](documentation/features/contact-page.png)
 
-![Homepage](assets/images/home-page.png)
-![Explore](assets/images/explore-page.png)
-![Contact](assets/images/contact-page.png)
+## Future Features
 
----
+Future improvements could include:
 
-## Design & layout
+- More detailed travel guides for specific areas of Marrakech.
+- A gallery page with more destination images.
+- Interactive map locations for attractions.
+- A booking enquiry system connected to a backend.
+- More destination categories such as hotels, cafés and day trips.
+- A FAQ section for common travel questions.
 
-I had a clear idea of how I wanted the website to be structured from the beginning.  
-The design is image-driven, with large visuals and calm spacing to create a welcoming and travel-inspired feel.
+## Tools and Technologies
 
-The color palette was chosen based on the main image on the home page.  
-From this image, I extracted natural tones and synced them across the website to create a consistent and cohesive visual identity.
+| Tool / Tech          | Use                                          |
+| -------------------- | -------------------------------------------- |
+| HTML5                | Structure and page content                   |
+| CSS3                 | Styling, layout and responsive design        |
+| JavaScript           | Contact form success message                 |
+| Google Fonts         | Poppins typography                           |
+| Git                  | Version control                              |
+| GitHub               | Repository hosting                           |
+| GitHub Pages         | Live deployment                              |
+| VS Code              | Code editor                                  |
+| W3C Validator        | HTML validation                              |
+| Jigsaw CSS Validator | CSS validation                               |
+| CompressPNG          | Image compression                            |
+| ChatGPT              | Learning support, debugging and explanations |
 
----
+This project does not use Bootstrap or any CSS framework. All styling was written using custom CSS.
 
-## Inspiration & topic choice
+## Testing
 
-The choice to create a travel website about Marrakech comes from a strong interest in travel and culture of Morocco.  
-Morocco has gained increased international attention following its historic fourth-place finish in the FIFA World Cup 2022.
+Detailed testing documentation can be found in:
 
-Additionally, Morocco is one of the host countries for the FIFA World Cup 2030 and is currently hosting the Africa Cup of Nations, which further strengthens its relevance as a travel destination.
+```text
+TESTING.md
+```
 
----
+Validation screenshots can be found in:
 
-## Responsiveness
+```text
+documentation/validation/
+documentation/responsiveness/
+documentation/features/
+```
 
-The website is fully responsive and adapts to different screen sizes using:
+### Manual Testing
 
-- Flexbox
-- Media queries
-- Mobile-first adjustments
+Testing was carried out manually throughout development and before final deployment.
 
-The layout has been tested using browser developer tools for mobile, tablet, and desktop views.
+| Feature         | Test                                  | Expected Result                                  | Actual Result             | Status |
+| --------------- | ------------------------------------- | ------------------------------------------------ | ------------------------- | ------ |
+| Navigation      | Click Home, Explore and Contact links | Correct page opens                               | Pages open correctly      | Pass   |
+| Home page       | Load homepage                         | Hero image and welcome text display correctly    | Displayed correctly       | Pass   |
+| Explore page    | View all travel cards                 | Images, headings and text display clearly        | Displayed correctly       | Pass   |
+| Contact page    | View contact layout                   | Form, travel basics and footer display correctly | Displayed correctly       | Pass   |
+| Contact form    | Submit form with valid inputs         | Success message appears and form resets          | Success message appears   | Pass   |
+| Success message | Submit contact form                   | Confirmation message appears without page reload | Displayed correctly       | Pass   |
+| Images          | Check all images                      | Images load and are not stretched                | Images display correctly  | Pass   |
+| Footer          | View footer on contact page           | Contact info appears clearly                     | Footer displays correctly | Pass   |
 
----
+### Responsiveness Testing
 
-## Technologies used
+Responsive layout screenshots can be found in:
 
-- HTML5
-- CSS3
-- Git & GitHub
-- GitHub Pages for deployment
+```text
+documentation/responsiveness/
+```
 
----
+The website was tested using browser developer tools at mobile, tablet and desktop sizes.
+
+| Device Size | Expected Result                                       | Actual Result             | Status |
+| ----------- | ----------------------------------------------------- | ------------------------- | ------ |
+| Mobile      | Content stacks vertically and remains readable        | Layout adapts correctly   | Pass   |
+| Tablet      | Content remains balanced without horizontal scrolling | Layout adapts correctly   | Pass   |
+| Desktop     | Images and cards display in a wider layout            | Layout displays correctly | Pass   |
+
+### Validator Testing
+
+| Validator            | File         | Result                    |
+| -------------------- | ------------ | ------------------------- |
+| W3C HTML Validator   | index.html   | Passed                    |
+| W3C HTML Validator   | explore.html | Passed after syntax fixes |
+| W3C HTML Validator   | contact.html | Passed after syntax fixes |
+| Jigsaw CSS Validator | style.css    | Passed                    |
+
+### Lighthouse Testing
+
+Lighthouse screenshots can be found in:
+
+```text
+documentation/validation/
+```
+
+Lighthouse testing was performed in Google Chrome DevTools.
+
+The website achieved good results in:
+
+- Performance
+- Accessibility
+- Best Practices
+- SEO
+
+Images were compressed to improve loading performance.
+
+### Browser Compatibility
+
+The website was tested and works correctly on:
+
+- Google Chrome
+- Microsoft Edge
+- Samsung Internet Browser
+
+The website was also tested on different screen sizes including:
+
+- Mobile devices
+- Tablets
+- Desktop screens
+
+### Bugs Found and Fixed
+
+| Bug                                                 | Cause                                     | Fix                                                    |
+| --------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------ |
+| Contact page failed HTML validation                 | Missing closing tags                      | Corrected HTML syntax                                  |
+| Explore page failed HTML validation                 | Incorrect semantic structure              | Replaced invalid elements and corrected structure      |
+| Images did not display on GitHub Pages              | Uppercase filenames caused path issues    | Renamed image files using lowercase filenames          |
+| Mobile contact page layout broke on smaller screens | Missing responsive styling                | Added responsive media queries                         |
+| Images loaded slowly                                | Large image file sizes                    | Compressed image sizes                                 |
+| GitHub Pages returned 404 image errors              | Incorrect image paths and filename casing | Corrected image paths and filenames                    |
+| Contact form success message did not display        | JavaScript functionality missing          | Added submit event listener and hidden success message |
+
+### Remaining Bugs
+
+No known unfixed bugs remain at the time of submission.
 
 ## Deployment
 
-The website is deployed using GitHub Pages and can be viewed online via the repository’s GitHub Pages link.
+The website was deployed using GitHub Pages.
 
----
+### GitHub Pages Deployment
 
-## Live Site
+1. The project files were committed and pushed to GitHub.
+2. In the GitHub repository, I opened the **Settings** tab.
+3. I selected **Pages** from the sidebar.
+4. Under **Build and deployment**, I selected **Deploy from a branch**.
+5. I selected the **main** branch and the **root** folder.
+6. I clicked **Save**.
+7. GitHub Pages generated the live deployment link.
 
-https://monia07.github.io/Marrakech-travel-guide/
+Live site: [Marrakech Travel Guide](https://monia07.github.io/Marrakech-travel-guide/)
 
----
+### Local Development
 
-## AI usage
+To run the project locally:
 
-AI-based tools were used as a learning support for:
+1. Go to the GitHub repository.
+2. Click the green **Code** button.
+3. Copy the repository URL.
+4. Open a terminal.
+5. Run:
 
-- Debugging layout issues that couldn't be solved after svereral own attempts
-- Improving understanding of structure and responsiveness
+```bash
+git clone https://github.com/Monia07/Marrakech-travel-guide.git
+```
 
----
+6. Open the project folder in VS Code.
+7. Open `index.html` in the browser.
 
-## Image credits
+Alternatively, use the Live Server extension in VS Code.
 
-All images used in this project were sourced from Unsplash and are free to use under the Unsplash license.  
-Photographer information was saved at the time of download.
+### Forking
+
+To fork the project:
+
+1. Log in to GitHub.
+2. Go to the repository.
+3. Click the **Fork** button.
+4. GitHub will create a copy of the repository in your account.
+
+## Credits
+
+### Content
+
+All written content was created for this project and adapted to match the Marrakech travel theme.
+
+### Code
+
+Most code was written specifically for this project using HTML, CSS and a small amount of JavaScript.
+
+| Source                                                    | Notes                                                       |
+| --------------------------------------------------------- | ----------------------------------------------------------- |
+| [Google Fonts](https://fonts.google.com/specimen/Poppins) | Poppins font used throughout the website                    |
+| [ChatGPT](https://chatgpt.com)                            | Used as learning support for debugging, layout explanations |
+
+### Media
+
+Images were sourced from Unsplash and used in accordance with the Unsplash license.
+
+| Media             | Source   |
+| ----------------- | -------- |
+| Marrakech image   | Unsplash |
+| Camel image       | Unsplash |
+| Quad biking image | Unsplash |
+| Souk images       | Unsplash |
+| Tagine image      | Unsplash |
+| Couscous image    | Unsplash |
+
+### Image Compression
+
+Images were compressed using CompressPNG to improve loading performance.
+
+## AI Usage Disclosure
+
+AI tools were used as learning support during development, mainly for understanding HTML/CSS concepts and debugging layout issues.

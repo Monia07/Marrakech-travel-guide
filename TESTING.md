@@ -38,12 +38,19 @@
 | Feature           | Action                       | Expected Result                              | Status |
 | ----------------- | ---------------------------- | -------------------------------------------- | ------ |
 | Contact form      | Enter information and submit | Success message appears                      | Pass   |
+| Success message   | Submit contact form          | Confirmation message appears without reload  | Pass   |
 | Form reset        | Submit form                  | Form clears after submission                 | Pass   |
 | Responsive layout | Open on mobile/tablet        | Layout adjusts correctly for smaller screens | Pass   |
 
 ---
 
 ## Validator Testing
+
+Validation screenshots can be found in:
+
+```text
+documentation/validation/
+```
 
 ### HTML
 
@@ -62,6 +69,12 @@ The CSS stylesheet was tested using the official W3C CSS Validator.
 
 ## Lighthouse Testing
 
+Lighthouse screenshots can be found in:
+
+```text
+documentation/validation/
+```
+
 Lighthouse testing was performed in Google Chrome DevTools.
 
 The website achieved good results in:
@@ -76,6 +89,12 @@ Images were compressed to improve loading performance.
 ---
 
 ## Browser Compatibility
+
+Responsive layout screenshots can be found in:
+
+```text
+documentation/responsiveness/
+```
 
 The website was tested and works correctly on:
 
@@ -99,6 +118,7 @@ The website was also tested on different screen sizes including:
 | Mobile layout on contact page was broken     | Added responsive media queries             |
 | Images were too large and slowed performance | Compressed image sizes                     |
 | GitHub Pages returned 404 errors for images  | Corrected file paths and filename casing   |
+| Contact form success message did not display | Added JavaScript submit event listener     |
 
 ---
 
@@ -147,3 +167,9 @@ https://monia07.github.io/Marrakech-travel-guide/
 - GitHub Pages
 - Visual Studio Code
 - Google Fonts
+
+---
+
+## AI Usage Disclosure
+
+AI tools were used as learning support during development, mainly for debugging and understanding HTML/CSS concepts.
