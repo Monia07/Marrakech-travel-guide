@@ -336,3 +336,8 @@ Images were compressed using CompressPNG to improve loading performance.
 ## AI Usage Disclosure
 
 AI tools were used as learning support during development, mainly for understanding HTML/CSS concepts and debugging layout issues.
+
+## Acknowledgements
+
+- Code Institute for the project structure guidance and learning materials.
+- My Code Institute mentor Tim Nelson for feedback and guidance during development.
